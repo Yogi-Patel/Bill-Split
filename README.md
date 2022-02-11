@@ -4,17 +4,10 @@ One has to enter the items, people who are part of the bill and the price into a
 
 
 <h3> How to run: </h3>
-<<<<<<< HEAD
 Run it using your command-line: <br>
 	python bill_split.py [excel file with extension] [tax amount]	
 
-<h3> Excel File:</h3>
-=======
-Run it using your command-line: 
-	python bill_split.py [excel file with extension] [tax amount]	
-
 <h3> Excel File </h3>
->>>>>>> 5bfc89826475ab790c265cc72a6d3fd27122b70b
 An example file has been provided (test.xlsx)
 
 <h3> Note: </h3>
