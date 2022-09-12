@@ -25,7 +25,12 @@ def Input():
 		taxAmount = float(input("Enter the tax amount:\n"))
 	else: 
 		excelFile = sys.argv[1]
-		taxAmount = float(sys.argv[2])
+		taxAmount = sys.argv[2].split("+")
+		tax_sum = 0
+		for x in taxAmount:
+			tax_sum += float(x)
+
+		taxAmount = tax_sum
 
 
 def ExcelPart():
